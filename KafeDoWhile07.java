@@ -9,7 +9,7 @@ public class KafeDoWhile07 {
         int hargaKopi = 12000;
         int hargaTeh = 7000;
         int hargaRoti = 20000;
-        int totalHarga;
+        int totalHarga;   
 
         do {
             System.out.print("Masukkan nama pelanggan (ketik 'batal' untuk keluar): ");
