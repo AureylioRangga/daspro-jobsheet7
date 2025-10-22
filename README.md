@@ -22,3 +22,20 @@ jawab :
 
 4. Modifikasi hitung jumlah mahasiswa
 jawab : commit
+
+
+PERCOBAAN 2
+1. a> arti nilai <0 || nilai > 100
+      jawab : jika nilai yang dimasukkan tidak berada di antara 0 sampai 100, maka program akan menjalankan bagian kondisi khusus untuk menandai bahwa input tersebut tidak valid.
+   b> arti perintah continue
+      jawab : perintah continue membuat program melewati sisa baris kode setelahnya dan langsung kembali ke awal perulangan untuk mengulang input berikutnya.
+
+2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE?
+    jawab : 
+    > letak i++ di akhir perulangan supaya nilai penghitung tidak bertambah duluan sebelum kode lain dijalankan.
+    > jika i++ diletakkan di bagian atas, maka penghitungan akan maju lebih cepat, sehingga perulangan akan mulai dari angka ke-2 (misalnya dari 2, bukan dari 1).
+
+3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE akan berjalan?
+    jawab : jumlah perulangannya tetap 19 kali, karena nilai awal i dimulai dari 0, dan kondisi loop adalah i < jml.
+
+

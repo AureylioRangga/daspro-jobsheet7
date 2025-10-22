@@ -3,11 +3,13 @@ public class KafeDoWhile07 {
     public static void main(String[]args) {
         Scanner sc = new Scanner(System.in);
 
-        int kopi, teh, roti
+        int kopi, teh, roti;
 
-        do {
-        
-        } while (true);
+        String namaPelanggan;
+        int hargaKopi = 12000;
+        int hargaTeh = 7000;
+        int hargaRoti = 20000;
+        int totalHarga;
 
         do {
             System.out.print("Masukkan nama pelanggan (ketik 'batal' untuk keluar): ");
@@ -27,5 +29,8 @@ public class KafeDoWhile07 {
         System.out.println("Total yang harus dibayar: Rp " + totalHarga);
         sc.nextLine();
         } while (true);
+        sc.close();
+    }
+}
+    
 
-        }
