@@ -31,7 +31,7 @@ public class TarifParkir07 {
         // Menghitung tarif berdasarkan jenis kendaraan dan lama parkir
             if (lama > 5) {
                 tarif = 12500;
-            } else if (jenis == 1) {
+            } else if (jenis == 1) { 
                 tarif = lama * 3000;
             } else if (jenis == 2) {
                 tarif = lama * 2000;
